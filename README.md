@@ -5,36 +5,28 @@ and general programming ideas.
 
 ### Installation
 
-##### Getting the code
+#### Getting the code
 
-Through Git:
-1. Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for your OS.
-1. Clone the code with `git clone https://github.com/DerekMaffett/python-examples.git` in your command prompt.
+1. Hit the green "Code" button on this repo.
+1. Choose your preferred option to download the code - Github Desktop would be the easiest
+and best since it can update over time, but a zip file also works.
 
-Directly:
-1. Copy/paste the files as desired. Git is the more common way but it can be ignored at first. 
-
-
-##### Installing an editor
+#### Installing an editor
 
 Many editors to choose from but these are popular and work on Windows:
 1. [Visual Studio](https://visualstudio.microsoft.com/)
 1. [Atom](https://atom.io/)
 
-##### Installing Python
+#### Installing Python
 
 1. Starting from this project folder
 1. Install Python from the [Downloads](https://www.python.org/downloads/) page
 1. This should also install [pip](https://pip.pypa.io/en/stable/getting-started/) - test with command `pip` 
-1. (OPTIONAL) Install [venv](https://docs.python.org/3/library/venv.html)
-Initialize virtual environment folder - `python -m venv .venv`
-Start venv with `./.venv/Scripts/activate.bat`
-
-venv is useful to isolate your project dependencies, but not strictly necessary.
-
+1. (OPTIONAL) Install [venv](https://docs.python.org/3/library/venv.html). Initialize virtual environment folder - `python -m venv .venv`. 
+Start venv with `./.venv/Scripts/activate.bat`. This tool is useful to isolate your project dependencies, but not strictly necessary.
 1. Install the project dependencies with `pip install -r requirements.txt`
 
-##### Tests
+#### Tests
 
 Run `pytest` - this will be installed as part of the project dependencies.
 
